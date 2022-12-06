@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Savings</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <h1>Mi app de gastos</h1>
+        <form id="incomeOutcomeform" novalidate>
+            <h3>Añadir nueva transacción</h3>
+            <label for="concept">Concepto</label>
+            <input id="concept" type="text" placeholder="Añade concepto..."/>
+    <br />
+            <label for="amount">Cantidad</label>
+            <input id="amount" type="number" placeholder="Introduce cantidad..."/>
+    <button type="submit" id="submit">Enviar</button>
+</form>
+
+    <!-- <button onclick="drawTweets()">🔄</button> -->
+
+    <section class="transactionHistory"></section>
+
+    <script src="./index.js"></script>
+</body>
+</html>
